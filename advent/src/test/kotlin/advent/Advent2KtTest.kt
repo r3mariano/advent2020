@@ -13,7 +13,7 @@ class Advent2KtTest : FreeSpec({
         """.trimIndent()) shouldBe 2
         }
         "uses my puzzle input" {
-            advent2(puzzleInput) shouldBe 564
+            advent2(puzzle2) shouldBe 564
         }
     }
     "part two" - {
@@ -25,12 +25,12 @@ class Advent2KtTest : FreeSpec({
         """.trimIndent()) shouldBe 1
         }
         "uses my puzzle input" {
-            advent2b(puzzleInput) shouldBe 0
+            advent2b(puzzle2) shouldBe 0
         }
     }
 })
 
-val puzzleInput = """
+private val puzzle2 = """
             3-5 f: fgfff
             6-20 n: qlzsnnnndwnlhwnxhvjn
             6-7 j: jjjjjwrj
